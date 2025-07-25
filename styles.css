@@ -1,7 +1,54 @@
+body {
+  margin: 0;
+  background-color: #0F001A;
+}
+
+h1 {
+  color: white;
+  font-family: 'poppins';
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+p {
+  color: #ffffff80;
+  font-family: 'poppins';
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+a {
+  color: white;
+  font-family: 'poppins';
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+span {
+  color: white;
+  font-family: 'poppins';
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
 .flex {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .center {
-  margin: 0 auto;
+  margin: auto;
+}
+
+.announces {
+  padding: 10px;
+  border: 1px solid #fff;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
 }
