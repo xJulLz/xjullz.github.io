@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   background-color: #0F001A;
@@ -22,15 +27,15 @@ p {
 a {
   color: white;
   font-family: 'poppins';
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 span {
   color: white;
   font-family: 'poppins';
-  font-size: 1.25rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .flex {
@@ -45,10 +50,43 @@ span {
   margin: auto;
 }
 
+.hero-cont {
+  margin-top: 100px;
+  text-align: center;
+  gap: 36px;
+}
+
 .announces {
-  padding: 10px;
+  padding: 5px 5px;
   border: 1px solid #fff;
   gap: 10px;
   flex-direction: row;
   align-items: center;
+  border-radius: 50px;
+}
+
+.announces p {
+  margin-left: 15px;
+}
+
+.highlithed-text {
+  align-self: center;
+  justify-self: center;
+  border-radius: 25px;
+  background-color: #ffffff30;
+  padding: 0px 15px;
+}
+
+.hero-texts {
+  gap: 16px;
+}
+
+.hero-buttons {
+  gap: 20px;
+}
+
+.hero-buttons a{
+  border: solid 1px ;
+  padding: 5px 15px;
+  border-radius: 10px;
 }
